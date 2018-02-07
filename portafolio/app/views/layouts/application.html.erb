@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <head>
+    <title>Mi Portafolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <style type="text/css">
+      .fa {
+        padding: 10px;
+        font-size: 40px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+
+      .fa:hover {
+          opacity: 0.7;
+      }
+
+      .fa-github {
+        background: #000000;
+        color: white;
+      }
+
+      .fa-bitbucket {
+        background: #000066;
+        color: white;
+      }
+
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+
+      .fa-blackboard {
+        background: #000000;
+        color: white;
+      }
+    </style>
+  </head>
+</body>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Luis Fajardo</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#sobre_mi">Sobre mí</a></li>
+      <li><a href="#portafolio">Portafolio</a></li>
+      <li><a href="#sitios_frecuentes">Sitios Frecuentes</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="sobre_mi">
+
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h2 class="text-center text-primary"><b>Sobre Mí</b></h2>      
+      <p align="justify">Hola, mi nombre es Luis Enrique tengo 23 años de edad y soy estuiante de Ingenieria en Sistemas en la Universidad Tecnologica Centroamericana (<a href="http://www.unitec.edu/" target="_blank">UNITEC</a>).</p>
+      <p align="justify">A los 18 años me gradue de Bachillerato en Computación en el Instituto "Juan Lindo" en Trinidad Santa Bárbara. La experiencia que tengo sobre desarrollo web es poca, y la he adquirido gracias a cursos que he tomado en <a href="https://www.codecademy.com/es" target="_blank">Codecademy</a> y algunos conceptos básicos que he leído en <a href="https://es.coursera.org" target="_blank">Coursera</a>.</p>
+      <p align="justify">Me gusta mucho leer; sobre Historia y sobre Ciencias. Me gustan las peliculas de acción y drama, me gustan las mascotas y tambien viajar.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portafolio">
+  <div class="container-fluid">
+    <h2 class="text-primary text-center"><b>Portafolio</b></h2>
+
+    <div class="row">
+      <a class="col-md-3 col-sm-5" href="https://github.com/Luis96791/EstructuraDatos2/tree/master/PrincipioPascal" target="_blank">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://i.pinimg.com/236x/a8/98/02/a89802cd45593a1fd4d7dd80093254af--tower-of-hanoi-the-tower.jpg" alt="Torres de Hanoi" width="200" height="170" ><h3>Torres de Hanoi</h3></img>
+          <div class="caption">
+            Es una simulación que resuelve el rompecabezas hasta con 6 discos con el mínimo de movimientos.
+          </div>
+        </div>
+      </a>
+      <a class="col-md-3 col-sm-5" href="https://github.com/Luis96791/Monopoly" target="_blank">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://newsonia.com/media/upload/images/2017/06/08/aH6CxUfmvbGHxVMSiqgTSWXPg6yG1rHl_598x414.jpg" alt="Monopoly" width="260" height="170" ><h3>Monopoly</h3></img>
+          <div class="caption">
+            Es la implementación de un juego de Monopoly desarrollado en C++ implementando SFML como interfaz gráfica.
+          </div>
+        </div>
+      </a>
+      <a class="col-md-3 col-sm-5" href="https://www.freecodecamp.org/" target="_blank">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://avatars0.githubusercontent.com/u/9892522?s=400&v=4" width="180" height="210" ><h3>FreeCodeCamp</h3></img>
+          <div class="caption">
+            Es un sitio que ayuda mucho al aprendizaje de desarrollo web, entregando al alumno herramientas puntuales para el desarrollo de paginas y aplicaciones web.
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>   
+</section>
+
+
+<footer id="sitios_frecuentes" class="container-fluid">
+  <hr>
+  <div class="col-md-8">
+    <h4 class="copyright">Diseñado por: Luis Fajardo</h4>
+  </div>
+  <div class="col-md-4">
+    <a href="https://github.com/login" target="_blank" class="fa fa-github"></a>
+    <a href="https://bitbucket.org/account/signin/" target="_blank" class="fa fa-bitbucket"></a>
+    <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+    <a href="https://unitec.blackboard.com" target="_blank" class="fa fa-blackboard"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Blackboard_Inc._logo.png/1200px-Blackboard_Inc._logo.png" alt="Blackboard" width="40" height="40"></a>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
+
+
